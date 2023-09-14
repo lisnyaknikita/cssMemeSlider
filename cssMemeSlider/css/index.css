@@ -68,3 +68,23 @@ body {
 .slider__controls label:hover {
   background-color: white;
 }
+
+input[name='r'] {
+  display: none;
+}
+
+#r1:checked ~ .s1 {
+  margin-left: 0;
+}
+
+#r2:checked ~ .s1 {
+  margin-left: -25%;
+}
+
+#r3:checked ~ .s1 {
+  margin-left: -50%;
+}
+
+#r4:checked ~ .s1 {
+  margin-left: -75%;
+}
