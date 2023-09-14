@@ -88,3 +88,33 @@ input[name='r'] {
 #r4:checked ~ .s1 {
   margin-left: -75%;
 }
+
+@media screen and (max-width: 700px) {
+  .slider__controls {
+    transform: translate(85%, -2.1rem);
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .slider {
+    height: 28rem;
+  }
+
+  .slider__slide img {
+    max-height: 75%;
+  }
+
+  .slider__slide-text {
+    margin-top: 2.1rem;
+    width: 100%;
+  }
+
+  .slider__controls {
+    transform: translate(42%, -6.25rem);
+  }
+
+  .slider__controls label {
+    width: 0.1rem;
+    height: 0.1rem;
+  }
+}
